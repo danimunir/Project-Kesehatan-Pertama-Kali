@@ -1,0 +1,191 @@
+
+		#background {
+
+			background-image: url(gambarbro.jpg);
+			padding: 40px;
+			height: 100%;
+			
+		}
+
+		#textbox {
+			width: auto;
+			height: auto;
+			opacity: 0.8;
+			padding: 10px;
+			background-color: black;
+			margin: 100px;
+		}
+
+		.text {
+			color: white;
+			font-size: large;
+		}
+
+		#textbox2 {
+			width: auto;
+			height: auto;
+			padding: 10px;
+			background-color: #ededed;
+			margin-top: 100px;
+			margin: 100px;
+			padding-bottom: 100px;
+		}
+
+		.text2 {
+			color: black;
+			font-size: large;
+		}
+
+		.container {
+			margin:auto;
+		}
+
+		body {
+	
+			margin: auto;
+			min-width: 740px;
+		}
+
+		.image-container {
+			display: inline-block;
+		}
+
+		.menu {
+			
+			background: black;
+			font-family: tahoma;
+			font-weight: bold;
+			font-size: 20px;
+			height: 70px;
+			width: 100%;
+			line-height: 0%;
+			padding-top: 10px;
+
+		}
+
+		label {
+			font-family: comic sans ms;
+			font-size: 20pt;
+			color: white;
+			margin: 10px;
+			padding: 5px;
+			float: left;
+			padding-top: 20px;
+		}
+
+		.menu ul {
+			margin: 0px;
+			padding: 5px;
+			background: none;
+			display: block;
+			float: right;
+			padding-top: 10px;
+
+		}
+
+		.menu ul li {
+			list-style: none;
+			display: inline-block;
+
+		}
+
+		.menu ul li a {
+			display: block;
+			text-decoration: none;
+			padding: 20px;
+			color: #ddd;
+
+		}
+
+		.menu ul li a:hover {
+			display: block;
+			color: green;
+			background: #222;
+			box-shadow: inset 0px 0px 5px #000;
+		}
+
+		.menu ul li .dropdown {
+			display: none;
+		}
+
+		.menu ul li:hover .dropdown {
+			display: block;
+			background: black;
+			position: absolute;
+			padding: 10px;
+		}
+
+		.menu ul li:hover .dropdown li {
+			display: block;
+		}
+
+		.menu ul li:hover .dropdown a {
+			padding: 10px;
+			border-radius: 5px;
+			margin-bottom: 5px;
+		}
+
+		.menu ul li:hover .dropdown a:hover {
+			background: #222;
+			box-shadow: inset 0px 0px 5px #000;
+		}
+
+		.font1 {
+			font-size: xx-large;
+			text-align: center;
+		}
+
+		.font2 {
+			font-family: Garamond;
+			margin-left: 200px;
+			margin-right: 200px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			font-size: large;
+		}
+
+		footer {
+			background-color: #edebeb;
+			text-align: right;
+			border-right: 1px solid #b5b5b5;
+			font-family: tahoma;
+			font-weight: bold;
+			font-size: 15px;
+			height: 30px;
+			width: 100%;
+			line-height: 0%;
+			padding-top: 10px;
+			bottom: 0;
+			margin-top: 0px;
+		}
+
+		footer ul {
+			margin: 0px;
+			padding: 5px;
+			background: none;
+			display: block;
+			float: right;
+
+		}
+
+		footer ul li {
+			list-style: none;
+			display: inline-block;
+
+		}
+
+		footer ul li a {
+			display: block;
+			text-decoration: none;
+			padding: 10px;
+			color: #a3a0a0;
+
+		}
+
+		.error{
+				color : red;
+			}
+
+		b {
+			line-height: 200%;
+		}

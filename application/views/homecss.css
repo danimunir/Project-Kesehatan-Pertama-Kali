@@ -1,0 +1,186 @@
+.container {
+			margin:auto;
+		}
+
+		body {
+	
+			margin: auto;
+			min-width: 920px;
+		}
+
+		img.back {
+			width: 100%;
+			height: 680px;
+
+		}
+
+		.menu {
+			
+			background: black;
+			font-family: tahoma;
+			font-weight: bold;
+			font-size: 20px;
+			height: 70px;
+			width: 100%;
+			line-height: 0%;
+			padding-top: 10px;
+
+
+		}
+
+		label {
+			font-family: comic sans ms;
+			font-size: 20pt;
+			color: white;
+			margin: 10px;
+			padding: 5px;
+			float: left;
+			padding-top: 20px;
+		}
+
+		.menu ul {
+			margin: 0px;
+			padding: 5px;
+			background: none;
+			display: block;
+			float: right;
+			padding-top: 10px;
+
+		}
+
+		.menu ul li {
+			list-style: none;
+			display: inline-block;
+
+		}
+
+		.menu ul li a {
+			display: block;
+			text-decoration: none;
+			padding: 20px;
+			color: #ddd;
+
+		}
+
+		.menu ul li a:hover {
+			display: block;
+			color: #75fc53;
+			background: #222;
+			box-shadow: inset 0px 0px 5px #000;
+		}
+
+		.menu ul li .dropdown {
+			display: none;
+		}
+
+		.menu ul li:hover .dropdown {
+			display: block;
+			background: black;
+			position: absolute;
+			padding: 10px;
+		}
+
+		.menu ul li:hover .dropdown li {
+			display: block;
+		}
+
+		.menu ul li:hover .dropdown a {
+			padding: 10px;
+			border-radius: 5px;
+			margin-bottom: 5px;
+		}
+
+		.menu ul li:hover .dropdown a:hover {
+			background: #222;
+			box-shadow: inset 0px 0px 5px #000;
+		}
+
+		tr, td {
+			border: 1px solid #c2c0c0;
+			font-size: larger;
+
+		}
+
+		tr, td{			
+			height: auto;
+			width: 200px;
+			text-align: center;
+			background-color:#dedede;
+			box-shadow: 5px 10px 18px #fcfafa inset;
+			
+		}	
+
+		td:hover {
+			background-color: #ffffff;
+		}
+
+		hr {
+			margin-top: 100px;
+			margin-bottom: 40px;
+		}
+
+		.font1 {
+			font-size: xx-large;
+			text-align: center;
+		}
+
+		.font2 {
+			font-family: Garamond;
+			margin-left: 200px;
+			margin-right: 200px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			font-size: large;
+		}
+
+		footer {
+			background-color: #edebeb;
+			text-align: right;
+			border-right: 1px solid #b5b5b5;
+			font-family: tahoma;
+			font-weight: bold;
+			font-size: 15px;
+			height: 30px;
+			width: 100%;
+			line-height: 0%;
+			padding-top: 10px;
+			bottom: 0;
+		
+		}
+
+		footer ul {
+			margin: 0px;
+			padding: 5px;
+			background: none;
+			display: block;
+			float: right;
+
+		}
+
+		footer ul li {
+			list-style: none;
+			display: inline-block;
+
+		}
+
+		footer ul li a {
+			display: block;
+			text-decoration: none;
+			padding: 10px;
+			color: #a3a0a0;
+
+		}
+
+		.text1 {
+			margin: 200px;
+			font-size: larger;
+		}
+
+		.text2 {
+			margin-left: 200px;
+			margin-top: 100px;
+			
+			padding-left: 200px;
+		}
+
+		
